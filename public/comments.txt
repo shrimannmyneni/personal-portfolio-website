@@ -1,0 +1,10 @@
+NAVBAR
+- need to add an image for a logo in navbar.js
+
+
+
+
+About section
+
+
+
