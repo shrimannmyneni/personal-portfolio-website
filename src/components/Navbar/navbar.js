@@ -9,7 +9,7 @@ const Navbar = () => {
         <nav className="navbar">
             <img src={shri} alt="C++" className="logo"/>
             <div className="desktopMenu">
-                <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-100} duration={500} className="desktopMenuListItem" onClick={() =>setShowMenu(!showMenu)}>Intro</Link>
+                <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-100} duration={500} className="desktopMenuListItem" onClick={() =>setShowMenu(!showMenu)}>About Me</Link>
                 <Link activeClass='active' to='workExperience' spy={true} smooth={true} offset={-50} duration={500} className="desktopMenuListItem" onClick={() =>setShowMenu(!showMenu)}>Work Experience</Link>
                 <Link activeClass='active' to='educationSection' spy={true} smooth={true} offset={-50} duration={500} className="desktopMenuListItem" onClick={() =>setShowMenu(!showMenu)}>Education</Link>
                 <Link activeClass='active' to='personalProjects' spy={true} smooth={true} offset={-50} duration={500} className="desktopMenuListItem" onClick={() =>setShowMenu(!showMenu)}>Personal Projects</Link>

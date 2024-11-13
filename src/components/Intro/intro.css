@@ -90,3 +90,23 @@
     font-weight: 300;
     margin-top: 1rem;
 }
+
+.regular-cursor {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: var(--sky-blue);
+    /* color: var(--text-color); */
+}
+
+.blinking-cursor {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: var(--text-color);
+    animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
