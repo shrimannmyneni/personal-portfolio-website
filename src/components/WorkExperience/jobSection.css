@@ -1,0 +1,55 @@
+/* jobSection.css */
+.workExperienceTitle {
+    font-size: 2.5rem;
+    color: var(--text-color);
+    margin-bottom: 2rem; /* Adjust this to increase/decrease space */
+    font-weight: bold;
+    text-align: left;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.job-list {
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem; /* Space between each job card */
+}
+
+
+.job-section {
+    position: relative; /* Ensures absolute positioning is based on this container */
+    padding: 4rem 1rem;;  /* Adjust padding as needed for space at the top */
+    background-color: var(--dark-navy);
+    color: var(--text-color);
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.job-card {
+    margin-bottom: 1rem;
+    padding: 1.5rem;
+    border-radius: 8px;
+    background-color: var(--navy);
+}
+
+.job-role {
+    font-size: 1.5rem;
+    color: var(--sky-blue);
+}
+
+.job-company-location,
+.job-dates {
+    font-size: 1rem;
+    color: var(--teal);
+}
+
+.job-responsibilities {
+    list-style-type: disc;
+    padding-left: 1.2rem;
+    font-size: 1rem;
+    color: var(--text-color);
+}

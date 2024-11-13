@@ -1,0 +1,87 @@
+/* Certifications Section Title */
+.certificationsTitle {
+    font-size: 2.5rem;
+    color: var(--text-color);
+    margin-bottom: 2rem;
+    font-weight: bold;
+    text-align: left;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+/* Certifications Section Container */
+.cert-section {
+    position: relative;
+    padding: 4rem 1rem;
+    background-color: var(--dark-navy);
+    color: var(--text-color);
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* Certification List */
+.cert-list {
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem; /* Space between each cert card */
+}
+
+/* Certification Card */
+.cert-card {
+    padding: 1.5rem;
+    border-radius: 8px;
+    background-color: var(--navy);
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+/* Certification Logo */
+.cert-logo {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    border-radius: 4px;
+}
+
+/* Certification Content */
+.cert-content {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Certification Title */
+.cert-title {
+    font-size: 1.5rem;
+    color: var(--sky-blue);
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+/* Organization and Issued Date */
+.cert-organization,
+.cert-issuedDate {
+    font-size: 1rem;
+    color: var(--sky-blue);
+    margin-bottom: 0.25rem;
+}
+
+/* Credential Link */
+.cert-link {
+    font-size: 1rem;
+    color: var(--sky-blue);
+    margin-top: 0.5rem;
+    text-decoration: underline;
+}
+
+/* Skills/Technologies */
+.cert-skills {
+    font-size: 1rem;
+    color: var(--text-color);
+    font-style: italic;
+    margin-top: 0.5rem;
+}

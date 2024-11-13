@@ -1,52 +1,92 @@
-#intro {
-    height:calc(100vh - 4rem);
-    width:100vw;
+/* Container styling */
+.intro-section {
+    height: calc(100vh - 4rem);
     max-width: 75rem;
     margin: 0 auto;
-    overflow: hidden;
+    display: flex;
+    align-items: center;
     position: relative;
+    padding: 2rem;
+    color: var(--text-color);
 }
 
-.bg {
+/* Profile image styling */
+.intro-image {
     position: absolute;
-    top: -4rem;
+    top: 50%;
     right: 0;
+    transform: translateY(-50%);
     z-index: -1;
     object-fit: cover;
     height: 100vh;
+    width: 50vw; /* Adjust as needed to balance with text */
+    clip-path: circle(50% at 50% 50%);
 }
 
-.introContent {
-    height: 100vh;
-    width: 100vw;
-    padding: 2rem;
+/* Intro content styling */
+.intro-content {
+    max-width: 40rem;
+    z-index: 1;
+    text-align: left;
+}
+
+.intro-greeting {
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: var(--teal);
+    margin-bottom: 0.5rem;
+}
+
+.intro-heading {
     font-size: 3rem;
-    font-weight: 700;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 0.5rem;
 }
 
-.hello {
-    font-size: 1.75rem;
-    font-weight: 100;
+.intro-name {
+    color: var(--yellow);
 }
 
-.introName {
-    color: yellow
+.intro-subheading {
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: var(--sky-blue);
+    margin-bottom: 1rem;
 }
 
-.introName {
-    font-size: medium;
-    font-weight: 100;
+.intro-description {
+    font-size: 1rem;
+    font-weight: 300;
+    color: var(--text-color);
+    max-width: 30rem;
+    line-height: 1.6;
 }
 
-.introPara {
-    font-style: italic;
-    font-size: 20px;
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .intro-section {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .intro-content {
+        align-items: center;
+        text-align: center;
+    }
+    
+    .intro-image {
+        position: static;
+        height: 50vh;
+        width: auto;
+        margin-top: 1rem;
+        clip-path: circle(50%);
+    }
 }
 
-.btn {
-    background: white;
-    margin: 1rem;
+.typing-effect {
+    font-size: 1.5rem;
+    color: var(--text-color);
+    font-weight: 300;
+    margin-top: 1rem;
 }

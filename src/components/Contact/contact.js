@@ -26,29 +26,28 @@ const Contact = () => {
     };
     
     return (
-        <section className="contactPage">
-            <div id='contact'>
-                <h1 className='contactPageTitle'>Contact Me</h1>
-                <form className='contactForm' ref={form} onSubmit={sendEmail}>
-                    <input type='text' className='name' placeholder='Your Name' name='your_name' />
-                    <input type='email' className='email' placeholder='Your Email' name='your_email' />
-                    <textarea className='msg' name='message' rows='6' placeholder='Your Message'></textarea>
-                    <button type='submit' className='submitBtn'>Submit</button>
-                </form>
-                
-                <div className='links'>
-                    <a href="https://www.linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">
-                        <img src={LinkedInImg} alt='LinkedIn' className='link' />
-                    </a>
-                    <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
-                        <img src={GithubImg} alt='GitHub' className='link' />
-                    </a>
-                    <a href="https://www.instagram.com/yourusername" target="_blank" rel="noopener noreferrer">
-                        <img src={InstaImg} alt='Instagram' className='link' />
-                    </a>
-                </div>
+    <section className="contact" id='contact'>
+        <div className="contactContainer">
+            <h1 className="contactPageTitle">Contact Me</h1>
+            <form className="contactForm" ref={form} onSubmit={sendEmail}>
+                <input type="text" className="name" placeholder="Your Name" name="from_name" />
+                <input type="email" className="email" placeholder="Your Email" name="from_email" />
+                <textarea className="msg" name="message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" className="submitBtn">Submit</button>
+            </form>
+            <div className="socialLinks">
+                <a href="https://www.linkedin.com/in/shrimann-myneni-17286b214/" target="_blank" rel="noopener noreferrer">
+                    <img src={LinkedInImg} alt="LinkedIn" className="socialIcon" />
+                </a>
+                <a href="https://github.com/shrimannmyneni" target="_blank" rel="noopener noreferrer">
+                    <img src={GithubImg} alt="GitHub" className="socialIcon" />
+                </a>
+                <a href="https://www.instagram.com/shr1myneni/?locale=en" target="_blank" rel="noopener noreferrer">
+                    <img src={InstaImg} alt="Instagram" className="socialIcon" />
+                </a>
             </div>
-        </section>
+        </div>
+    </section>
     );
 }
 

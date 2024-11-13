@@ -1,0 +1,113 @@
+/* Main Education Section Styling */
+.educationSection {
+    background-color: var(--dark-navy);
+    color: var(--text-color);
+    padding: 4rem 1rem;
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+
+/* Left-Aligned Education Title */
+.educationTitle {
+    font-size: 2.5rem;
+    color: var(--text-color);
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    text-align: left;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    padding-top: 1rem;
+}
+
+/* Enhanced Degree Styling */
+.educationDegree {
+    font-size: 1.75rem; /* Slightly larger font size for emphasis */
+    color: var(--sky-blue);
+    margin: 3rem 0; /* Increased margin for better spacing */
+    font-weight: 400; /* Slightly bolder than 300 to improve readability */
+    text-align: center;
+    padding-bottom: 0.5rem; /* Add space below the text */
+    border-bottom: 2px solid var(--teal); /* Subtle underline effect */
+    max-width: 80%; /* Centered with some width constraint */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.educationContent {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    text-align: left;
+}
+
+/* Column Styling */
+.educationColumn {
+    background-color: var(--navy);
+    padding: 1.5rem;
+    border-radius: 8px;
+    flex: 1 1 280px; /* Ensures responsive columns */
+    min-width: 250px;
+    max-width: 300px;
+}
+
+/* Header Styling for Each Column */
+.educationColumn h3 {
+    font-size: 1.2rem;
+    color: var(--sky-blue);
+    margin-bottom: 1rem;
+    border-bottom: 2px solid var(--sky-blue);
+    padding-bottom: 0.5rem;
+}
+
+/* List Styling */
+.courseworkList, .projectsList, .activitiesList {
+    list-style-type: none;
+    padding: 0;
+}
+
+.courseworkList li, .projectsList li, .activitiesList li {
+    color: var(--text-color);
+    font-size: 1rem;
+    font-weight: 300;
+    margin: 0.5rem 0;
+    padding-left: 1rem;
+    position: relative;
+}
+
+.courseworkList li::before, .projectsList li::before, .activitiesList li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: var(--teal);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .educationContent {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .educationColumn {
+        max-width: 100%;
+    }
+
+    .educationTitle {
+        position: static;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+}
+
+.date {
+    font-family: 'Courier New', Courier, monospace; /* Monospace font for clear distinction */
+    font-size: 1rem; /* Slightly smaller than main text */
+    color: var(--sky-blue); /* Use a complementary color */
+    font-weight: 400; /* Regular weight to keep it subtle */
+    font-style: italic; /* Optional: Adds a nice touch to distinguish dates */
+    margin-top: 0.5rem;
+}
