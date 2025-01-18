@@ -16,8 +16,8 @@ const Education = () => {
                 <div className="educationColumn">
                     <h3>Relevant Coursework</h3>
                     <ul className="courseworkList">
-                        <li>EECS 489: Computer Networks</li>
                         <li>EECS 485: Web Systems</li>
+                        <li>EECS 442: Computer Vision</li>
                         <li>EECS 370: Intro to Computer Organization</li>
                         <li>EECS 281: Data Structures & Algorithms</li>
                         <li>EECS 280: Object-Oriented Programming</li>
@@ -35,8 +35,9 @@ const Education = () => {
                 <div className="educationColumn">
                     <h3>Other Activities</h3>
                     <ul className="activitiesList">
+                    <li>VP of Finance, IEEE Student Branch at the University of Michigan<br/><span className='date'>(12/2023 - 11/2024)</span></li>
                         <li>Treasurer, Sigma Nu Fraternity<br/><span className='date'>(12/2023 - 11/2024)</span></li>
-                        <li>Volunteer, 826Michigan<br/><span className='date'>(1/2023 - 4/2023)</span></li>
+                        <li>Youth Writing Coach, 826Michigan<br/><span className='date'>(1/2023 - 4/2023)</span></li>
                     </ul>
                 </div>
             </div>

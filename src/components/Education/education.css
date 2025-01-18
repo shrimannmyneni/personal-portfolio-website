@@ -23,13 +23,13 @@
 
 /* Enhanced Degree Styling */
 .educationDegree {
-    font-size: 1.75rem; /* Slightly larger font size for emphasis */
+    font-size: 1.75rem;
     color: var(--sky-blue);
     margin: 3rem 0; /* Increased margin for better spacing */
     font-weight: 400; /* Slightly bolder than 300 to improve readability */
     text-align: center;
     padding-bottom: 0.5rem; /* Add space below the text */
-    border-bottom: 2px solid var(--teal); /* Subtle underline effect */
+    border-bottom: 2px solid var(--teal);
     max-width: 80%; /* Centered with some width constraint */
     margin-left: auto;
     margin-right: auto;

@@ -1,13 +1,13 @@
 import React, {useState} from 'react';
 import './navbar.css';
-import shri from "../../images/pictures/shrimann2023.png";
+import ShrimannMyneniLogo from "../../images/PersonalLogos/ShrimannMyneniLogo.png";
 import { Link } from "react-scroll";
 
 const Navbar = () => {
     const [showMenu, setShowMenu] = useState(false);
     return (
         <nav className="navbar">
-            <img src={shri} alt="C++" className="logo"/>
+            <img src={ShrimannMyneniLogo} alt="C++" className="logo"/>
             <div className="desktopMenu">
                 <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-100} duration={500} className="desktopMenuListItem" onClick={() =>setShowMenu(!showMenu)}>About Me</Link>
                 <Link activeClass='active' to='workExperience' spy={true} smooth={true} offset={-50} duration={500} className="desktopMenuListItem" onClick={() =>setShowMenu(!showMenu)}>Work Experience</Link>

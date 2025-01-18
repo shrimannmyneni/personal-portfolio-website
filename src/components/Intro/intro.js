@@ -1,6 +1,6 @@
 import React from 'react';
 import './intro.css';
-import shri from '../../images/pictures/shrimann2023.png';
+import shri from '../../images/headshots/ShriMyneni_A14.jpg';
 import TypingEffect from './typingEffects'; // Make sure this component is in the same folder
 
 const Intro = () => {
@@ -15,7 +15,7 @@ const Intro = () => {
                     a Computer Science Student at the University of Michigan.
                 </p>
                 <p className="intro-description">
-                    I'm <TypingEffect/> {/* Dynamic typing effect component */}
+                    <TypingEffect/> {/* Dynamic typing effect component */}
                 </p>
             </div>
             <img src={shri} alt="Profile" className="intro-image"/>
