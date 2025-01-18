@@ -1,0 +1,25 @@
+index.js
+Give logo and site name
+
+NAVBAR
+- need to add an image for a logo in navbar.js
+
+<img src={shri} alt="Menu" className='mobMenu'/>
+
+<div className='desktopMenu'>
+            <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-100} duration={500} className="desktopMenuListItem" onClick={() =>setShowMenu(!showMenu)}>Home</Link>
+                <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-50} duration={500} className="desktopMenuListItem" onClick={() =>setShowMenu(!showMenu)}>Education</Link>
+                <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-50} duration={500} className="desktopMenuListItem" onClick={() =>setShowMenu(!showMenu)}>Work Experience</Link>
+                <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-50} duration={500} className="desktopMenuListItem" onClick={() =>setShowMenu(!showMenu)}>Personal Projects</Link>
+                <Link activeClass='active' to='intro' spy={true} smooth={true} offset={-50} duration={500} className="desktopMenuListItem" onClick={() =>setShowMenu(!showMenu)}>Certifications</Link>
+            </div>
+
+
+
+Email JS: Need to update the email js template
+- Only sending from shrimann@umich.edu
+# might be issue with the form variables being sent back (issue with name?)
+* need to recreate template
+
+
+
