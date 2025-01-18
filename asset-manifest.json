@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.477c6799.css",
-    "main.js": "/static/js/main.803a6590.js",
-    "static/media/ShriMyneni_A14.jpg": "/static/media/ShriMyneni_A14.c3b8a40c3e2d64d2bffc.jpg",
-    "static/media/p1code.png": "/static/media/p1code.ee8b262d099ee411e4f2.png",
-    "static/media/MSCert.png": "/static/media/MSCert.798b0fa28f6180266d35.png",
-    "static/media/ShrimannMyneniLogo.png": "/static/media/ShrimannMyneniLogo.49c6f88e1c8be3d740c2.png",
-    "index.html": "/index.html",
-    "main.477c6799.css.map": "/static/css/main.477c6799.css.map",
-    "main.803a6590.js.map": "/static/js/main.803a6590.js.map"
+    "main.css": "/personal-portfolio-project/static/css/main.477c6799.css",
+    "main.js": "/personal-portfolio-project/static/js/main.6d490026.js",
+    "static/media/ShriMyneni_A14.jpg": "/personal-portfolio-project/static/media/ShriMyneni_A14.c3b8a40c3e2d64d2bffc.jpg",
+    "static/media/p1code.png": "/personal-portfolio-project/static/media/p1code.ee8b262d099ee411e4f2.png",
+    "static/media/MSCert.png": "/personal-portfolio-project/static/media/MSCert.798b0fa28f6180266d35.png",
+    "static/media/ShrimannMyneniLogo.png": "/personal-portfolio-project/static/media/ShrimannMyneniLogo.49c6f88e1c8be3d740c2.png",
+    "index.html": "/personal-portfolio-project/index.html",
+    "main.477c6799.css.map": "/personal-portfolio-project/static/css/main.477c6799.css.map",
+    "main.6d490026.js.map": "/personal-portfolio-project/static/js/main.6d490026.js.map"
   },
   "entrypoints": [
     "static/css/main.477c6799.css",
-    "static/js/main.803a6590.js"
+    "static/js/main.6d490026.js"
   ]
 }
