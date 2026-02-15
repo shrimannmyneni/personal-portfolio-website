@@ -20,8 +20,8 @@ function App() {
       <hr/>
       <Education/>
       <hr/>
-      <Projects/>
-      <hr/>
+      {/* <Projects/>
+      <hr/> */}
       <Certifications/>
       <hr/>
       <Contact/>

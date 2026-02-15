@@ -4,7 +4,7 @@ import './footer.css'
 const Footer = () => {
     return (
         <footer className='footer'>
-            &#169; 2024 Shrimann Myneni.
+            &#169; 2026 Shrimann Myneni.
         </footer>
     );
 }
